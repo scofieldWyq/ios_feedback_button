@@ -7,6 +7,7 @@
 //
 
 #import "WYQAppDelegate.h"
+#import "WYQTableViewList.h"
 
 @implementation WYQAppDelegate
 
@@ -14,6 +15,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    WYQTableViewList *myTableview = [[WYQTableViewList alloc] init];
+    /* set the data source */
+    NSMutableArray *dataSource = [NSMutableArray array];
+    
+    for( int i=0; i < 20; i++) /* create 20 elements */
+    {
+        [dataSource addObject:[NSString stringWithFormat:@"data source NO: %d", i]];
+    }
+
+    [myTableview setMyDataSource:dataSource];
+    
+    self.window.rootViewController = myTableview;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

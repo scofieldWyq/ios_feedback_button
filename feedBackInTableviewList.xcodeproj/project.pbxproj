@@ -19,6 +19,7 @@
 		D1DF528B1AEFDB0600E4BC53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DF52731AEFDB0600E4BC53 /* UIKit.framework */; };
 		D1DF52931AEFDB0600E4BC53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1DF52911AEFDB0600E4BC53 /* InfoPlist.strings */; };
 		D1DF52951AEFDB0600E4BC53 /* feedBackInTableviewListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF52941AEFDB0600E4BC53 /* feedBackInTableviewListTests.m */; };
+		D1DF52A31AEFE11100E4BC53 /* WYQTableViewList.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF52A21AEFE11100E4BC53 /* WYQTableViewList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D1DF52901AEFDB0600E4BC53 /* feedBackInTableviewListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "feedBackInTableviewListTests-Info.plist"; sourceTree = "<group>"; };
 		D1DF52921AEFDB0600E4BC53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1DF52941AEFDB0600E4BC53 /* feedBackInTableviewListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = feedBackInTableviewListTests.m; sourceTree = "<group>"; };
+		D1DF52A11AEFE11100E4BC53 /* WYQTableViewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYQTableViewList.h; sourceTree = "<group>"; };
+		D1DF52A21AEFE11100E4BC53 /* WYQTableViewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYQTableViewList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				D1DF527E1AEFDB0600E4BC53 /* WYQAppDelegate.h */,
 				D1DF527F1AEFDB0600E4BC53 /* WYQAppDelegate.m */,
+				D1DF52A11AEFE11100E4BC53 /* WYQTableViewList.h */,
+				D1DF52A21AEFE11100E4BC53 /* WYQTableViewList.m */,
 				D1DF52811AEFDB0600E4BC53 /* Images.xcassets */,
 				D1DF52761AEFDB0600E4BC53 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1DF52A31AEFE11100E4BC53 /* WYQTableViewList.m in Sources */,
 				D1DF52801AEFDB0600E4BC53 /* WYQAppDelegate.m in Sources */,
 				D1DF527C1AEFDB0600E4BC53 /* main.m in Sources */,
 			);
